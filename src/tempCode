@@ -1,0 +1,11 @@
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+
+return (
+              <Card>
+                <CardMedia title="Preces bilde" />
+                <CardContent>
+                  <Typography>{item.name}</Typography>
+                  <Typography>{item.price}</Typography>
+                </CardContent>
+              </Card>
+            );
